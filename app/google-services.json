@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "907517772344",
+    "project_id": "aquimitienda",
+    "storage_bucket": "aquimitienda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907517772344:android:a5c2f7b622fde9775edccd",
+        "android_client_info": {
+          "package_name": "com.example.aquimitienda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907517772344-s6341av4bctplll79fqudmk0cvttd6sc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGLMG2eNA9pisW2iuQEEpfL6KYjsAJZEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907517772344-s6341av4bctplll79fqudmk0cvttd6sc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907517772344:android:04ba3c494d416f245edccd",
+        "android_client_info": {
+          "package_name": "com.example.splashscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907517772344-s6341av4bctplll79fqudmk0cvttd6sc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGLMG2eNA9pisW2iuQEEpfL6KYjsAJZEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907517772344-s6341av4bctplll79fqudmk0cvttd6sc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
