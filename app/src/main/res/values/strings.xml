@@ -2,4 +2,6 @@
     <string name="app_name">splashscreen</string>
 
     <string name="title_login">Registro y Autenticacion</string>
+    <string name="title_clientes">Clientes</string>
+
 </resources>
