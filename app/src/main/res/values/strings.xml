@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">splashscreen</string>
+    <string name="title_login">Registro y Autenticacion</string>
 </resources>

@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         screenSplash.setKeepOnScreenCondition {false}
         setup()
-        title = "Registro & Autenticacion"
+        title = getString(R.string.title_login)
     }
 
     private fun setup(){
