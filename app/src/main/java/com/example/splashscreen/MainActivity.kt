@@ -13,6 +13,7 @@ import kotlinx.coroutines.delay
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
         Thread.sleep(3000)
         val screenSplash = installSplashScreen()
         super.onCreate(savedInstanceState)
@@ -20,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         screenSplash.setKeepOnScreenCondition {false}
         setup()
         title = getString(R.string.title_login)
+
     }
 
     private fun setup(){
