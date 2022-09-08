@@ -8,7 +8,7 @@ class Clientes : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_clientes)
-        title = "CLIENTES"
+        title = getString(R.string.title_clientes)
 
     }
 }
