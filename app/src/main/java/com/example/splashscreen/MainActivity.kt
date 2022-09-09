@@ -3,13 +3,11 @@ package com.example.splashscreen
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.CountDownTimer
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.coroutines.delay
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         val screenSplash = installSplashScreen()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         screenSplash.setKeepOnScreenCondition {false}
         setup()
         title = getString(R.string.title_login)
